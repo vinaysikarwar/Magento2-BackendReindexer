@@ -1,0 +1,30 @@
+{
+    "name": "WebTechnologyCodes/magento2-backend-reindexer",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "version": "0.0.3",
+    "description": "Magento 2 module to add reindexing to the Admin Panel",
+    "keywords":[ "composer-installer", "magento"],
+    "authors": [
+        {
+            "name": "Vinay sikarwar",
+            "email": "shop@webtechnologycodes.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "^100.1|^101.0|^102.0",
+        "php": ">=7.0.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"*",
+        "composer/composer":"*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebTechnologyCodes\\BackendReindexer\\": ""
+        },        
+        "files": [
+            "registration.php"
+        ]
+    }
+}

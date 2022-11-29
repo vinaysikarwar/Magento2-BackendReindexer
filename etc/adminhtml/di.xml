@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * WebTechnologyCodes
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer versions in the future.
+ * If you wish to customize this module for your needs.
+ * Please contact us https://magentoextensions.in
+ *
+ * @category   WebTechnologyCodes
+ * @package    WebTechnologyCodes_BackendReindexer
+ * @copyright  Copyright (C) 2018 WebTechnologyCodes LLP (https://magentoextensions.in)
+ * @license    https://magentoextensions.in
+ */
+ -->
+ 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Indexer\Block\Backend\Grid\ItemsUpdater">
+        <plugin disabled="false" name="WebTechnologyCodes_BackendReindexer_Plugin_MassindexAcl" type="WebTechnologyCodes\BackendReindexer\Plugin\MassindexAcl" />
+    </type>
+</config>

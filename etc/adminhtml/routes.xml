@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * WebTechnologyCodes
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer versions in the future.
+ * If you wish to customize this module for your needs.
+ * Please contact us https://magentoextensions.in
+ *
+ * @category   WebTechnologyCodes
+ * @package    WebTechnologyCodes_BackendReindexer
+ * @copyright  Copyright (C) 2018 WebTechnologyCodes LLP (https://magentoextensions.in)
+ * @license    https://magentoextensions.in
+ */
+ -->
+ 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="reindexer" frontName="reindexer">
+            <module name="WebTechnologyCodes_BackendReindexer" before="Magento_Backend"/>
+        </route>
+    </router>
+</config>

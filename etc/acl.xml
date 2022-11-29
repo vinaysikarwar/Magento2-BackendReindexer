@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<!--
+/**
+ * WebTechnologyCodes
+ *
+ * Do not edit or add to this file if you wish to upgrade to newer versions in the future.
+ * If you wish to customize this module for your needs.
+ * Please contact us https://magentoextensions.in
+ *
+ * @category   WebTechnologyCodes
+ * @package    WebTechnologyCodes_BackendReindexer
+ * @copyright  Copyright (C) 2018 WebTechnologyCodes LLP (https://magentoextensions.in)
+ * @license    https://magentoextensions.in
+ */
+ -->
+ 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::system">
+                    <resource id="Magento_Backend::tools">
+                        <resource id="WebTechnologyCodes_BackendReindexer::reindex" title="WebTechnologyCodes Backend Reindexer" translate="title" sortOrder="50" />
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
